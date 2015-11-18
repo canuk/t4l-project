@@ -1,0 +1,99 @@
+* {
+margin: 0;
+padding: 0;
+/* cursor: none; */
+cursor:  url(../cursor.png) 4 12, auto;
+}
+/*
+figure#mouse-pointer {
+	background-image: url('../cursor.png');
+	width: 37px;
+	height: 52px;
+	position: absolute;
+	margin-left: -8px; 
+	display: block;
+	z-index: 9999;
+}
+*/
+body {
+font: 140%/1.5 Verdana, Sans-Serif;
+background: #eee;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+#container {
+margin: 25px auto;
+width: 968px;
+}
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 951px;
+height: 200px;
+font: 3em/1.5 Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#keyboard {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+    #keyboard li {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor:  url(../cursor.png) 4 12, auto;
+    }
+        .capslock, .tab, .left-shift {
+        clear: left;
+        }
+            #keyboard .tab, #keyboard .delete {
+            width: 90px;
+            }
+            #keyboard .capslock {
+            width: 110px;
+            }
+            #keyboard .return {
+            width: 107px;
+            }
+            #keyboard .left-shift {
+            width: 140px;
+            }
+            #keyboard .right-shift {
+            width: 143px;
+            }
+        .lastitem {
+        margin-right: 0;
+        }
+        .uppercase {
+        text-transform: uppercase;
+        }
+        #keyboard .space {
+        clear: left;
+        width: 960px;
+        }
+        .on {
+        display: none;
+        }
+        #keyboard li:hover {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        border-color: #e5e5e5;
+        cursor:  url(../cursor.png) 4 12, auto;
+        }
+        .capslock-shade {
+          color: green;
+        }
